@@ -1,51 +1,436 @@
 *{
+  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(30, 30, 30);
+   
+}
+  
+nav ul{
+    background-color: rgb(30, 30, 30);
+    width: 250px;
+    min-height: 100vh;
+    position: fixed;
+    border-right: 2px solid rgb(51, 50, 50);
+    font-style: normal;
+    font-weight: 100;
     font-family: Montserrat;
-    
+}
 
+nav ul li a {
+  display: block;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  padding: 30px;
+  font-family: Montserrat;
+  transition: color .4s ease-in-out, box-shadow .0s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: black;
+  box-shadow: inset 400px 0 0 0 #ffffff;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Montserrat;
+   font-style: normal;
+  font-weight: 100; 
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+nav ul li:last-child a {
+  color: rgb(114, 110, 110);
+}
+
+
+
+nav ul li{
+  list-style-type:  none;
+  padding: 0;     
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 100; 
+}
+
+.imagenplanlogo{
+  width: 140px;
+  margin: 40px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+section{
+    min-height: 100vh;
+    width:100%;  
+    font-style: normal;
+    font-weight: 100;
+    font-family: Montserrat;
    
 }
 
 .inovar {
-  border-top: 0.1px solid rgb(51, 50, 50);
-  margin-top: 210px;  
-  
+  border-top: 2px solid rgb(51, 50, 50);
+  margin-top: 200px;  
+  font-style: normal;
+  font-weight: 100; 
+  font-family: Montserrat;
 }
-.um{
-  margin-top: 100px; 
+
+/* MENU */
+ 
+
+.inicializando{
+  margin-left: 1260px;
+  margin-top: 500px;
+  position: absolute;
+  font-size: 100px;
+  color: #FFF;
+  font-family:Montserrat;
+}
+
+.viva{
+  margin-left: 1380px;
+  margin-top: 400px;
+  font-size: 100px;
+  color: rgb(245, 130, 31);
+  position: absolute;
+  font-family: Lexend, Montserrat, sans-serif;
+}
+.vemprapan{
+  margin-left: 1400px;
+  margin-top: 800px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: rgb(245, 130, 31);
+  position: absolute;
+}
+
+.fogue{
+  margin-left: 1400px;
+  margin-top:100px;
+  width: 200px;
+  position: absolute;
+}
+
+.astro{
+
+  margin-left: 1440px;
+  margin-top:880px;
+  width: 100px;
+  position: absolute;
+}
+
+
+
+
+.quemsomos{
+  color: #FFF;
+  margin-left: 1150px;
+  margin-top: 450px;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  position: absolute;
+  display: flex;
+}
+
+
+.quem{
+  color: rgb(128, 117, 117);
+  margin-left: 1150px;
+  margin-top: 300px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  position:absolute;
+}
+
+.realidade{
+  width: 850px;
+  height: 962px;
+  margin-left: 250px;
+  position:absolute;
+}
+
+
+.duvidaicon{
+  margin-left: 280px;
+  margin-top: 440px;
+  width: 100px;
+  position: relative;
+
+  background-color: transparent;
 
 }
 
-#menu ul{
-    background-color: rgb(30, 30, 30);
-    width: 250px;
-    height: 100px;
-    min-height: 100vh;
-    position: fixed;
-    border-right: 1px solid rgb(51, 50, 50);
-
-}
-#menu ul li{
-  list-style-type:  none;
-  padding: 0;
-       
+.oquefazemos{
+  color: rgb(128, 117, 117);
+  margin-left: 400px;
+  margin-top: 440px;
+  font-size: 40px;
+  position:absolute;
 }
 
-img{
-  
-  width: 140px;
-  margin: 40px;
-  
-  
+
+.tecnologia{
+  color: #fff;
+  margin-left: 415px;
+  margin-top: 500px;
+  font-size: 15px;
+  position:absolute;
 }
-section{
-    min-height: 100vh;
-    width:100%;
-    
+
+.joystickicon{
+  margin-left: 1050px;
+  margin-top: 320px;
+  width: 100px;
+  position: absolute;
+  background-color: transparent;
 }
+
+.textojoy{
+  color: #fff;
+  margin-top: -230px;
+  margin-left: 1560px;
+  background: transparent;
+  font-size: 15px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 100;
+  font-family: Montserrat;
+}
+
+.joy{
+  font-size: 40px;
+  color: rgb(128, 117, 117);
+  margin-top: -245px;
+  margin-left: 1560px;
+  background: transparent;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  position: absolute;
+  font-family: Montserrat;
+
+}
+.realidadeicon{
+  width: 100px;
+  margin-top: 300px;
+  margin-left: 870px;
+  position: absolute;
+background: transparent;
+}
+
+.textovr{
+  color: #fff;
+  margin-top: -240px;
+  margin-left: 1000px;
+  background: transparent;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.real{
+  font-size: 40px;
+  color: rgb(128, 117, 117);
+  margin-top: -250px;
+  font-style: normal;
+  font-weight: 100;
+  margin-left: 1000px;
+  background: transparent;
+  font-size: 20px;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.realidadeau{
+  width: 100px;
+  margin-top: 650px;
+  margin-left: 1060px;
+  position: absolute;
+background: transparent;
+}
+
+.realidadeaumentada{
+  font-size: 40px;
+  color: rgb(128, 117, 117);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: Montserrat;
+  
+  margin-top: 80px;
+  margin-left: 1560px;
+
+  background: transparent;
+  position: absolute;
+}
+
+.textoaumentada{
+  color: #fff;
+  margin-top: 98px;
+  margin-left: 1560px;
+  background: transparent;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.inteligenciaicon{
+  width: 100px;
+  margin-top: 650px;
+  margin-left: 489px;
+  position: absolute;
+background: transparent;
+}
+
+.humano  {
+  font-size: 40px;
+  color: rgb(128, 117, 117);
+  margin-top: 85px;
+  font-style: normal;
+  font-weight: 100;
+  margin-left: 1000px;
+  background: transparent;
+  font-size: 20px;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.textohumano{
+  color: #fff;
+  margin-top: 110px;
+  margin-left: 1000px;
+  background: transparent;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+
+.slider{
+  margin: 0 auto;
+  width: 850px;
+  height: 1000px;
+  overflow: hidden;
+  margin-left: 250px;
+  margin-top: -30px;
+
+}
+
+.inicio{
+  margin-top: 80px;
+}
+
+.slides{
+  width: 400%;
+  height: 300px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 3s;
+}
+
+.slide img{
+  width: 1000px;
+}
+
+.manual-navigation{
+  background-color: transparent;
+  position: absolute;
+  width: 1000px;
+  margin-top: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+  margin-right: 100px;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px ;
+}
+
+.manual-btn:hover{
+  background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -75%;
+}
+
+#radio5:checked  ~ .first{
+  margin-left: -100%;
+}
+
+.navigation-auto div{
+  border: 2px solid #FFF;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 30px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background-color: #FFF;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background-color: #FFF;
+}
+
 
 ::-webkit-scrollbar{
   width: 10px;
@@ -54,39 +439,242 @@ section{
 ::-webkit-scrollbar-track{
   background-color: #888;
 }
+
 ::-webkit-scrollbar-thumb{
   background-color: #bbb;
   border-radius: 30px;
 }
+
 ::-webkit-scrollbar-thumb:hover{
   background-color: #ccc;
 }
 
-#menu ul li a {
-    display: block;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    color: #ffffff;
-    padding: 30px;
-    transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
-    font-family: Montserrat;
-       
-    
-  }
-  #menu ul li a:hover {
-    color: black;
-    box-shadow: inset 400px 0 0 0 #ffffff;
-    
-  }
+.filla{
+  width: 200px;
+  margin-top: 400px;
+  margin-left: 860px;
+  position: absolute;
+background: transparent;
+}
+
+.fullup{
+  width: px;
+  margin-top: 530px;
+  margin-left: 1480px;
+  position: absolute;
+background: transparent;
+}
+
+.killing{
+  width: 200px;
+  margin-top: 400px;
+  margin-left: 1050px;
+  position: absolute;
+background: transparent;
   
-  #menu ul li a {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-decoration: none;
-    
-  }
-  #menu ul li:last-child a {
-    color: rgb(114, 110, 110);
-  }
+}
+
+.dass{
+  width: 200px;
+  margin-top: 500px;
+  margin-left: 860px;
+  position: absolute;
+background: transparent;
   
+}
+
+.gerdau{
+  width: 200px;
+  margin-top: 500px;
+  margin-left: 1055px;
+  position: absolute;
+background: transparent;
+  
+}
+
+.atlhas{
+  width: 190px;
+  margin-top: 500px;
+  margin-left: 1250px;
+  position: absolute;
+background: transparent;
+  
+}
+
+.azul{
+  width: 200px;
+  margin-top: 415px;
+  margin-left: 1260px;
+  position: absolute;
+background: transparent;
+  
+}
+
+.taurus{
+  width: 200px;
+  margin-top: 415px;
+  margin-left: 1460px;
+  position: absolute;
+background: transparent;
+  
+}
+.contato{
+  color: #fff;
+  margin-top: 50px;
+  margin-left: px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 100;
+  font-family: Montserrat;
+  background: transparent;
+  width: 100%; 
+  max-width: 500px;
+}
+
+.contato #enviaa {
+  cursor: pointer;
+}
+
+.contatoo{
+
+  color: #fff;
+  margin-top: 240px;
+  margin-left: 355px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 100;
+  font-family: Montserrat;
+  background: transparent;
+
+}
+
+.contatotext{
+  color: #fff;
+  margin-top: 300px;
+  margin-left: 350px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: Montserrat;
+  background: transparent;
+
+}
+
+.fild{
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(250, 250, 250);
+  position: relative;
+  color: #888;
+}
+
+.content{
+  display: flex;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.siga{
+  margin-top: -130px;
+  margin-left: 900px;
+  position: absolute;
+  font-weight: 100;
+  font-size: 30px;
+  color: #fff;
+}
+
+.siganos{
+  margin-top: -410px;
+  margin-left: 990px;
+  font-family: Montserrat;
+   font-style: normal;
+  font-weight: 100; 
+  list-style-type:  none;
+  text-decoration: none;
+  color: transparent;
+
+}
+
+.siganos ul li a{
+  list-style-type:  none;
+  text-decoration: none;
+  transition: 1s; 
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  position: relative;
+  text-decoration: none;
+}
+
+
+ ul li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+  font-family: Montserrat;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  
+}
+
+.textosiganosagora{
+  margin-top: -100px;
+  margin-left: 1150px;
+  position: absolute;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.RS {
+  margin-top: 100px;
+  margin-left: 900px;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  font-family: Montserrat;
+}
+
+.SP{
+  margin-top: 200px;
+  margin-left: 900px;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  font-family: Montserrat;
+}
+
+.rstexto{
+  margin-top: -80px;
+  margin-left: 990px;
+  font-size:20px;
+  font-style: normal;
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.sptexto{
+  margin-top: -80px;
+  margin-left: 990px;
+  font-size:20px;
+  font-style: normal;
+  position: absolute;
+  font-family: Montserrat;
+}
+
